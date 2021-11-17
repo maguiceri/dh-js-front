@@ -5,4 +5,7 @@ module.exports = {
   home(req, res) {
     res.render('index')
   },
+  user(req, res) {
+    res.render('users')
+  },
 }
